@@ -1,7 +1,7 @@
 var path = require('path')
 var webpack = require('webpack')
 
-module.exports = {
+module.exports = { 
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -77,7 +77,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: true,
+    noInfo: false,
     overlay: true
   },
   performance: {
