@@ -35,6 +35,11 @@ export default {
         return age
       }
     }
+  },
+  watch: {
+    name (newVal, oldVal) {
+      console.log(newVal, oldVal)
+    }
   }
 }
 </script>
