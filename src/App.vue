@@ -6,7 +6,7 @@
     pm-loader(v-show="isLoading")
     section.section(v-show="!isLoading")
       nav.nav
-        .container
+        .container.field.is-grouped
           input.input.is-large(
             type="text", 
             placeholder="Buscar canciones",
